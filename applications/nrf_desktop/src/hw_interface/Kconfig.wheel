@@ -9,7 +9,25 @@ menu "Wheel configuration"
 
 config DESKTOP_WHEEL_ENABLE
 	bool "Enable wheel hardware interface"
+
+choice
+	prompt "Wheel sensor type"
+	depends on DESKTOP_WHEEL_ENABLE
+	help
+	  Specify the type of wheel sensor.
+
+config DESKTOP_WHEEL_SENSOR_QDEC
+	bool "QDEC"
 	depends on HAS_DTS_QDEC
+	help
+	  Wheel sensor by QDEC block.
+
+config DESKTOP_WHEEL_SENSOR_GPIO
+	bool "GPIO"
+	help
+	  Wheel sensor by GPIO interrupts.
+
+endchoice
 
 config DESKTOP_WHEEL_SENSOR_VALUE_DIVIDER
 	int "Wheel sensor value divider"
