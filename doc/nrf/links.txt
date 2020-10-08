@@ -463,6 +463,8 @@
 .. _`Alexa Gadgets Notifications interface`: https://developer.amazon.com/en-US/docs/alexa/alexa-gadgets-toolkit/notifications-interface.html
 .. _`Alexa Gadgets Github color cycler`: https://github.com/alexa/Alexa-Gadgets-Raspberry-Pi-Samples/tree/v2.0.0/src/examples/color_cycler#step-4-create-your-custom-skill
 
+.. _`Apple Notification Center Service Specification`: https://developer.apple.com/library/ios/documentation/CoreBluetooth/Reference/AppleNotificationCenterServiceSpecification/Introduction/Introduction.html
+
 .. _`Nanopb`: https://jpa.kapsi.fi/nanopb/
 .. _`Nanopb Downloads`: https://jpa.kapsi.fi/nanopb/download/
 
